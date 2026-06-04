@@ -143,7 +143,7 @@ function App() {
             fontSize: '16px', fontWeight: 'bold', cursor: isLoading ? 'default' : 'pointer'
           }}
         >
-          {isLoading ? ' Gemini AI가 글의 흐름을 파악하는 중입니다...' : ' 요약 시작'}
+          {isLoading ? ' 글의 흐름을 파악하는 중입니다...' : ' 요약 시작'}
         </button>
       </div>
 
